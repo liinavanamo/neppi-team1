@@ -1,4 +1,4 @@
-(function ($) {
+function ($) {
     $.fn.countTo = function (options) {
         options = options || {};
         
@@ -77,7 +77,7 @@
     function formatter(value, settings) {
         return value.toFixed(settings.decimals);
     }
-}(jQuery));
+}(jQuery);
 
 jQuery(function ($) {
   // custom formatting example
