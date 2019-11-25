@@ -18,6 +18,12 @@ h2 {
     color: black;
 }
 
+h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    color: black;
+}
+
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 25px;
@@ -34,19 +40,27 @@ body {
     width: 35px;
 }
   
+/*.count-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: black;
+}
+
+
   /*-=-=-=-=-=-=-=-=-=-=-=- */
   /* Column Grids */
   /*-=-=-=-=-=-=-=-=-=-=-=- */
 
-
-
-  .col_fourth { width: 30%; }
-  .col_half,
-  .col_third,
-  .col_twothird,
-  .col_fourth,
-  .col_three_fourth,
-  .col_fifth{
+  .col_fifth { width: 30%; }
+  .col_fifth {
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+    
+  .col_fourth { width: 20%; }
+  .col_fourth {
       position: relative;
       display:inline;
       display: inline-block;
